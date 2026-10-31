@@ -1,0 +1,5 @@
+{"cases":[
+  {"name":"synthetic_consistent_metadata","claim":{"claim_id":"c-1","agent_id":"agent-A","session_id":"s-1","resource":"doc:test","action":"write","policy_version":"p-2"},"receipt":{"claim_id":"c-1","agent_id":"agent-A","session_id":"s-1","resource":"doc:test","action":"write","policy_version":"p-2","receipt_id":"r-1","status":"reported_success","observer_id":"observer-B"}},
+  {"name":"synthetic_stale_policy","claim":{"claim_id":"c-1","agent_id":"agent-A","session_id":"s-1","resource":"doc:test","action":"write","policy_version":"p-2"},"receipt":{"claim_id":"c-1","agent_id":"agent-A","session_id":"s-1","resource":"doc:test","action":"write","policy_version":"p-1","receipt_id":"r-2","status":"reported_success","observer_id":"observer-B"}},
+  {"name":"synthetic_missing_observer","claim":{"claim_id":"c-1","agent_id":"agent-A","session_id":"s-1","resource":"doc:test","action":"write","policy_version":"p-2"},"receipt":{"claim_id":"c-1","agent_id":"agent-A","session_id":"s-1","resource":"doc:test","action":"write","policy_version":"p-2","receipt_id":"r-3","status":"reported_success"}}
+]}
